@@ -1,0 +1,383 @@
+#navbar-inverse{
+	background-color: #003366;
+}
+.abc{
+	list-style-type: none;
+
+}
+
+.footerId{
+   list-style-type: none;
+   margin-top: 10%;
+   padding: 0;
+}
+
+
+.footerId2{
+	margin-top: 120%;
+} 
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative; 
+  /* border: 2px solid #3F0C1F; */
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('images/clutches.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('images/sh1.jpg') no-repeat;
+  background-position: center;
+}
+
+#map-tile {
+  background: url('images/sunglasses.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4em;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+} 
+/*For Zoom Effects */
+.transition{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.img-responsive{
+    width:100%;
+}
+.project {
+    margin-bottom: 30px;
+    vertical-align: top;
+    margin-right: 30px;
+    float: left;
+    cursor: pointer;
+    width:100%;
+}
+
+.project figure {
+    position: relative;
+    display: inline-block;
+}
+
+.project figure img {
+    width: 100%;
+}
+.btn-warning bnt-action{
+    margin: 0% 0% auto;    
+}
+
+figcaption .project-details {
+    display: block;
+    font-size: 16px;
+    /*line-height: 33px;*/
+    color: #000;
+    /*height: 27px;*/
+    width: 100%;
+    margin: 0 auto 5px auto;
+    /*margin-bottom: 5px;*/
+    overflow: hidden;
+}
+.project figure:hover figcaption {
+    background:#d81e05;
+}
+.project figure:hover figcaption .project-details {
+    color: #fff;
+}
+
+figcaption .project-price {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    font-size: 22px;
+    text-align: right;
+    margin-top: 8px;
+    letter-spacing: -1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+figcaption .project-creator {
+    font-size: 13px;
+    color: #545454;
+    display: block;
+}
+
+figcaption .project-creator {
+    font-size: 13px;
+    color: #545454;
+    display: block;
+}
+
+.project figure .actions button {
+    padding: 13px 20px;
+    font-size: 16px;
+    top: 32%;
+    position: absolute;
+    left: 50%;
+    width: 90%;
+    margin-left: -45%;
+    line-height: 18px;
+    letter-spacing: 1px;
+} 
+
+.project figure:hover .actions {
+    background-color: rgba(115,15,2,.8);
+    top: 40%;
+    font-size:2em;
+    font-weight:700;
+}
+
+.project figure .actions {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    top: 70%;
+    left:0;
+    right:0;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(29,29,29,.5);
+    -ms-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: white;
+    font-size:1.5em;
+    padding:2%;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+@media (min-width: 992px) {
+    .project figure .actions {
+    top: 60%;
+    left:0;
+    right:0;
+    font-size:1.5em;
+    padding:2%;
+    
+}
+.project figure:hover .actions {
+    top: 50%;
+    font-size:1.8em;
+    padding-top:0%;
+}
+}
+
+@media (min-width: 1200px) {
+    .project figure .actions {
+    top: 70%;
+    left:0;
+    right:0;
+    font-size:1em;
+    padding:2%;
+}
+.project figure:hover .actions {
+    top: 50%;
+    font-size:1.3em;
+}
+}
+
+                                        
+
+.product-div1{
+    position:relative;
+    overflow:hidden;
+}
+.product-div1:hover img{
+    transform: scale(1.1);
+}
+img{
+    transform: scale(1);
+}
+
+.heading{
+  font-size: 1em;
+}
+
+hr{
+  background-color: white;
+}
+
+body{
+  overflow: scroll;
+}
+
+
+.star-rating{
+  font-size: 0;
+}
+.star-rating__wrap{
+  display: inline-block;
+  font-size: 1rem;
+}
+.star-rating__wrap:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.star-rating__ico{
+  float: right;
+  padding-left: 2px;
+  cursor: pointer;
+  color: #FFB300;
+}
+.star-rating__ico:last-child{
+  padding-left: 0;
+}
+.star-rating__input{
+  display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+  content: "\f005";
+}
+/*For Flash*/
+.jumbotron jumbotron-fluid
+{
+  height:50%;
+  width: 50%;
+  background-repeat: no-repeat;
+}
+
+#list{
+  background-color: #E2D2B0;
+  margin: auto;
+  
+  box-shadow: 3px 3px 0 #2E0000;
+}
+
+ul{
+  padding-left: 0;
+  font-size: 0.9em;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li a:link {
+  color: #795240;
+  font-weight: normal;
+}
+
+li a:visited{
+  color: #A58366;
+}
+
+li a:hover{
+  color: #F5F5DC;
+}
+
+/*nav a{
+  text-decoration: none;
+}
+
+li.dropdown ul {
+display : none;
+}*/
+
+
+li.dropdown ul {
+color: black;
+
+}
+
+
+
+
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+  height: 500px;
+}
+
+.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+    border-radius: 25px;
+    box-shadow: 10px -10px gray;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;  
+    display: block;  }
+
+figcaption{
+  text-align: center;
+}
+
+
+.individualPic {
+    margin: 100px;
+    
+    float: left;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+}
+
+.individualPic img {
+    width: 500px;
+    height: 600px;  
+    display: block;  }
+
+.desc{
+  margin-bottom:  970px;
+}
